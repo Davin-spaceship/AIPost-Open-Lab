@@ -72,7 +72,13 @@ window.DECK_CONTENT = [
   {
     id: "visibility", type: "visibility", label: "INCLUDED FOR EVERY SPONSOR", title: "每位贊助商，\n都有全渠道產品介紹。",
     intro: "所有贊助均包含活動前、中、後的宣傳，以及企業產品或服務介紹。",
-    channels: ["Instagram", "Threads", "Facebook", "AI郵報官網", "電子報"],
+    channels: [
+      {label: "Instagram", url: "https://www.instagram.com/aiposthub/"},
+      {label: "Threads", url: "https://www.threads.com/@aiposthub"},
+      {label: "Facebook", url: "https://www.facebook.com/aiposthub"},
+      {label: "AI郵報官網", url: "https://www.aiposthub.com/"},
+      {label: "電子報"}
+    ],
     items: [
       ["介紹你的產品", "說清楚產品用途、適合誰使用，以及現場可以體驗什麼。"],
       ["帶出現場參與", "記錄展示、分享、競賽與作品，延伸成可傳播的內容。"],

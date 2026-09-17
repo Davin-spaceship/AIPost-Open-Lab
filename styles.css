@@ -38,7 +38,8 @@ h1,h2,h3,h4,p,figure{margin:0}
 .cover-type{position:relative;z-index:2}
 .cover-type h1{display:flex;flex-direction:column;width:max-content;max-width:100%;font-family:Impact,"Arial Black",sans-serif;font-weight:900}
 .hundred{color:var(--lime);font-size:clamp(100px,13.1vw,205px);line-height:.97;letter-spacing:-.045em}
-.asterisk{display:inline-block;font:400 .48em sans-serif;vertical-align:35%;margin-left:20px;color:var(--orange)}
+.icon{display:inline-block;width:1em;height:1em;vertical-align:-.12em;flex-shrink:0}
+.asterisk{display:inline-block;font-size:.48em;line-height:1;vertical-align:35%;margin-left:20px;color:var(--orange)}
 .openlab{font-size:clamp(51px,7.1vw,108px);line-height:1;letter-spacing:-.045em}
 .deck-label{font:500 13px var(--mono);margin-top:18px;color:var(--orange)}
 .signal{position:absolute;right:-8%;top:30px;width:61%;height:77%;z-index:0;opacity:.82;transform:rotate(-10deg);pointer-events:none}
@@ -105,6 +106,10 @@ figcaption{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6}
 .challenge-role span{font-size:11px;color:var(--orange)}
 .challenge-role p{font-size:14px;line-height:1.8;margin-top:6px}
 .channel-strip{display:flex;flex-wrap:wrap;gap:12px 36px;border-top:1px solid #6e822b;border-bottom:1px solid #6e822b;padding:23px 0;margin:32px 0;font:600 clamp(17px,1.65vw,25px) var(--mono)}
+.channel-strip a{display:inline-flex;align-items:center;gap:8px;min-height:44px;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px}
+.channel-strip a .icon{width:.7em;height:.7em}
+.channel-strip a:hover{color:#465219}
+.channel-strip>span{display:inline-flex;align-items:center;min-height:44px}
 .visibility-list article{display:grid;grid-template-columns:45px 200px 1fr;gap:20px;align-items:start;margin-bottom:25px}
 .visibility-list article>span{font:500 12px var(--mono);padding-top:6px}
 .visibility-list h3{font-size:20px}

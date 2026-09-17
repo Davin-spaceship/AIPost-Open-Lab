@@ -10,7 +10,7 @@ window.DECK_CONTENT = [
     id: "experience", type: "experience", label: "THE OPEN LAB", title: "一杯飲料的距離，\n認識下一位使用者。",
     intro: "帶著電腦來試玩，聽一場分享，參加一個挑戰。品牌團隊、創作者與 AI 使用者，在同一個空間交換想法。",
     items: [["開放體驗", "Booth 與 AI Playground 自由探索，產品團隊直接示範、解答問題。"], ["分享與競賽", "短講、Live Demo、創作挑戰穿插進行，讓產品成為話題與作品的一部分。"], ["音樂與交流", "AI Music、餐食與酒水，把聊天留到 17:30 之後。"]],
-    image: "assets/open-lab-event-concept.png", caption: "AI 生成・活動情境模擬，非實際場地或活動紀錄；配置依最終場地規劃。",
+    image: "assets/open-lab-event-concept-web.jpg", caption: "AI 生成・活動情境模擬，非實際場地或活動紀錄；配置依最終場地規劃。",
     facts: "台北場、香港場各一場／11–12 月週末／13:00 報到，13:30 開始"
   },
   {
@@ -32,8 +32,8 @@ window.DECK_CONTENT = [
     id: "event-proof", type: "proof", label: "EVENT EXPERIENCE", title: "我們把科技品牌，\n帶到使用者面前。",
     intro: "從企業主題活動到讀者聚會，AI郵報的合作涵蓋議題企劃、社群招募、現場執行與影像內容。",
     cases: [
-      {name: "Microsoft Cloud + AI", kind: "科技活動案例", image: "assets/microsoft-event.jpg", description: "企業 AI 與雲端議題，連結品牌團隊與專業受眾。"},
-      {name: "AWS Taiwan Media AI Summit", kind: "科技活動案例", image: "assets/aws-event.jpg", description: "以媒體 AI 應用為主題，呈現技術與產業使用情境。"}
+      {name: "Microsoft Cloud + AI", kind: "科技活動案例", image: "assets/microsoft-event-web.jpg", description: "企業 AI 與雲端議題，連結品牌團隊與專業受眾。"},
+      {name: "AWS Taiwan Media AI Summit", kind: "科技活動案例", image: "assets/aws-event-web.jpg", description: "以媒體 AI 應用為主題，呈現技術與產業使用情境。"}
     ],
     source: {label: "更多活動與影像合作案例", url: "https://deck.aiposthub.com/?lang=zh#s7"},
     note: "以上為過往案例，非本次活動合作陣容。"

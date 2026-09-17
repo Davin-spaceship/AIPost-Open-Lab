@@ -71,10 +71,30 @@ document.querySelector("#overviewBtn").onclick=()=>dialog.showModal();
 document.querySelector("#closeOverview").onclick=()=>dialog.close();
 document.querySelector("#overviewGrid").onclick=e=>{const b=e.target.closest("button[data-index]");if(b){dialog.close();go(Number(b.dataset.index));}};
 dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+function readStep(direction){
+  const rect=pages[current].getBoundingClientRect();
+  const step=Math.max(120,window.innerHeight-120);
+  if(direction>0){
+    const remaining=rect.bottom-window.innerHeight;
+    if(remaining>2)window.scrollBy({top:Math.min(step,remaining),behavior:"instant"});
+    else go(current+1);
+  }else{
+    if(rect.top < -2)window.scrollBy({top:-Math.min(step,-rect.top),behavior:"instant"});
+    else if(current>0){
+      const target=current-1;
+      const bottom=pages[target].getBoundingClientRect().bottom+window.scrollY;
+      const top=pages[target].getBoundingClientRect().top+window.scrollY;
+      window.scrollTo({top:Math.max(top,bottom-window.innerHeight),behavior:"instant"});
+      update(target);
+    }
+  }
+}
 document.addEventListener("keydown",e=>{
   if(dialog.open||e.altKey||e.ctrlKey||e.metaKey||e.target.closest("input,textarea,select,[contenteditable],button,a"))return;
-  if(["ArrowRight","PageDown"," "].includes(e.key)){e.preventDefault();go(current+1);}
-  if(["ArrowLeft","PageUp"].includes(e.key)){e.preventDefault();go(current-1);}
+  if(e.key===" "||e.key==="PageDown"){e.preventDefault();readStep(e.shiftKey?-1:1);}
+  if(e.key==="PageUp"){e.preventDefault();readStep(-1);}
+  if(e.key==="ArrowRight"){e.preventDefault();go(current+1);}
+  if(e.key==="ArrowLeft"){e.preventDefault();go(current-1);}
   if(e.key==="Home"){e.preventDefault();go(0);}
   if(e.key==="End"){e.preventDefault();go(slides.length-1);}
 });
@@ -82,7 +102,7 @@ window.addEventListener("scroll",()=>{
   if(frame)return;
   frame=requestAnimationFrame(()=>{
     frame=0;
-    const mark=window.innerHeight*.32;
+    const mark=96;
     let found=0;
     pages.forEach((p,i)=>{if(p.getBoundingClientRect().top<=mark)found=i;});
     update(found);

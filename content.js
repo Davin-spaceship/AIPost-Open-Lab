@@ -4,14 +4,14 @@ window.DECK_CONTENT = [
     id: "cover", type: "cover", label: "Sponsorship & Partnership Deck", title: "AI郵報 100K OPEN LAB",
     headline: "把你的產品，\n帶進 AI 使用者的現場。",
     description: "AI郵報十萬讀者里程碑活動。邀請品牌、創作者與社群，一起帶來值得試玩、分享與交流的 AI 體驗。",
-    cities: ["台北場 TAIPEI", "香港場 HONG KONG"], date: "2026.11—12", scale: "300+", scaleLabel: "每場規劃人數"
+    cities: ["台北場 TAIPEI", "香港場 HONG KONG"], date: "2026.12｜週末", scale: "300+", scaleLabel: "每場規劃人數"
   },
   {
     id: "experience", type: "experience", label: "THE OPEN LAB", title: "一杯飲料的距離，\n認識下一位使用者。",
     intro: "帶著電腦來試玩，聽一場分享，參加一個挑戰。品牌團隊、創作者與 AI 使用者，在同一個空間交換想法。",
     items: [["開放體驗", "Booth 與 AI Playground 自由探索，產品團隊直接示範、解答問題。"], ["分享與競賽", "短講、Live Demo、創作挑戰穿插進行，讓產品成為話題與作品的一部分。"], ["音樂與交流", "AI Music、餐食與酒水，把聊天留到 17:30 之後。"]],
     image: "assets/open-lab-event-concept-web.jpg", caption: "AI 生成・活動情境模擬，非實際場地或活動紀錄；配置依最終場地規劃。",
-    facts: "台北場、香港場各一場／11–12 月週末／13:00 報到，13:30 開始"
+    facts: "台北場、香港場各一場／12 月週末／13:00 報到，13:30 開始"
   },
   {
     id: "reach", type: "reach", label: "AIPOST MEDIA", title: "現場之外，\n還有整個 AI郵報。",
@@ -118,7 +118,7 @@ window.DECK_CONTENT = [
     id: "contact", type: "contact", label: "LET’S MAKE IT HAPPEN", title: "你想讓大家\n親手試試什麼？",
     intro: "告訴我們產品、參與場次與合作想法，一起選擇最適合的現場形式。",
     name: "Davin", org: "AI郵報／泊思智能", email: "davin@aiposthub.com", phone: "0928 910 214",
-    cities: "台北場 · 香港場", date: "2026 年 11–12 月週末", scale: "每場 300 人起規劃",
+    cities: "台北場 · 香港場", date: "2026 年 12 月週末", scale: "每場 300 人起規劃",
     link: {label: "認識 AI郵報與更多案例", url: "https://deck.aiposthub.com/"},
     note: "日期、場地與各場合作內容將陸續確認。"
   }

@@ -252,3 +252,19 @@ address .source-link{font-size:12px;margin-top:20px}
   .proof-grid img,.experience-grid figure img{height:180px}.cover-type h1 .hundred{font-size:120px}.cover-type h1 .openlab{font-size:70px}
   .table-wrap{overflow:visible}.source-link{white-space:normal}
 }
+
+/* Language navigation and English copy sizing. */
+#languageSwitch{color:var(--lime);text-decoration:none;padding:6px 4px;white-space:nowrap}
+html:lang(en) body{font-family:Arial,Helvetica,sans-serif}
+html:lang(en) .slide-heading h2{font-size:clamp(30px,3.4vw,53px);line-height:1.12}
+html:lang(en) .story-grid h3,html:lang(en) .network-grid h3{font-size:22px;line-height:1.25}
+html:lang(en) .slide-heading>p{line-height:1.6}
+html:lang(en) .slide-foot>span{flex:1;min-width:0}
+html:lang(en) .slide-foot .source-link{max-width:30%}
+@media(max-width:600px){
+  .topbar__right{gap:8px}.topbar button{padding:6px 8px}
+  html:lang(en) .slide-heading h2{font-size:30px}
+  html:lang(en) .slide-foot .source-link{max-width:100%}
+  html:lang(en) .benefit-wrap:before{content:"Swipe to compare all three packages →"}
+}
+@media(max-width:380px){.brand span{display:none}}

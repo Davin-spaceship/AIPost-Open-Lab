@@ -1,17 +1,24 @@
 /* 每個物件是一頁。id 為穩定錨點；2026.09.17 確認單場贊助級距。 */
 window.DECK_CONTENT = [
   {
-    id: "cover", type: "cover", label: "Sponsorship & Partnership Deck", title: "AI郵報 100K OPEN LAB",
-    headline: "把你的產品，\n帶進 AI 使用者的現場。",
-    description: "AI郵報十萬讀者里程碑活動。邀請品牌、創作者與社群，一起帶來值得試玩、分享與交流的 AI 體驗。",
-    cities: ["台北場 TAIPEI｜12/5（六）・瓶蓋工廠", "香港場 HONG KONG｜12 月・日期待定"], date: "2026.12.05", scale: "300+", scaleLabel: "每場規劃人數"
+    id: "cover", type: "cover", label: "Sponsorship & Partnership Deck", title: "AI郵報 OPEN LAB 2026",
+    headline: "讓產品被理解、被體驗，\n也被更多人分享。",
+    description: "AI 應用體驗・產業分享・創作者交流。結合實體互動與 AI郵報全渠道內容，讓品牌參與從現場延伸到線上。",
+    cities: ["台北場 TAIPEI｜12/5（六）・瓶蓋工廠", "香港場 HONG KONG｜預計 12/19（六）"], date: "2026.12"
   },
   {
-    id: "experience", type: "experience", label: "THE OPEN LAB", title: "一杯飲料的距離，\n認識下一位使用者。",
+    id: "our-story", type: "story", label: "WHY WE BRING PEOPLE TOGETHER", title: "我們一直在做的，\n是讓科技離人更近。",
+    intro: "從把複雜的 AI 技術，轉譯成看得懂、用得上的內容；到論壇、直播與小聚，讓螢幕另一端的人，坐下來交換想法。",
+    items: [["讓科技被理解", "科技報導、產品實測、應用內容", "把功能轉成使用情境，讓讀者看見科技和自己的關係。"], ["讓對話發生", "產業論壇、直播訪談、社群聚會", "從品牌與專家的分享，到讀者之間的交流，讓問題有機會被回應。"], ["讓想法被實踐", "AI 教學、工作坊、企業培訓", "不只認識新工具，也把方法帶進工作與創作。"]],
+    closing: "從跨渠道累積逾 20 萬追蹤的社群出發，OPEN LAB 要把線上的連結，變成現場的相遇。",
+    source: {label: "認識 AI郵報的內容、活動與教育實績", url: "https://deck.aiposthub.com/"}
+  },
+  {
+    id: "experience", type: "experience", label: "THE OPEN LAB", title: "從一場體驗，\n開始下一段品牌關係。",
     intro: "帶著電腦來試玩，聽一場分享，參加一個挑戰。品牌團隊、創作者與 AI 使用者，在同一個空間交換想法。",
-    items: [["開放體驗", "Booth 與 AI Playground 自由探索，產品團隊直接示範、解答問題。"], ["分享與競賽", "短講、Live Demo、創作挑戰穿插進行，讓產品成為話題與作品的一部分。"], ["音樂與交流", "AI Music、餐食與酒水，把聊天留到 17:30 之後。"]],
+    items: [["開放體驗", "Booth 與 AI Playground 自由探索，產品團隊直接示範、解答問題。"], ["分享與創作", "產業專家分享、Live Demo 與創作挑戰，讓產品成為對話與作品的一部分。"], ["有話題的交流", "專屬名牌標示 AI 興趣與交流意向；17:30 起搭配輕食、酒水，讓對話繼續。"]],
     image: "assets/open-lab-event-concept-web.jpg", caption: "AI 生成・活動情境模擬，非實際場地或活動紀錄；配置依最終場地規劃。",
-    facts: "台北場：2026/12/5（六）・瓶蓋工廠／13:00 報到，13:30 開始；香港場：12 月週末，日期待定。"
+    facts: "台北：2026/12/5（六）・瓶蓋工廠｜13:00 報到，13:30 開始。香港：預計 2026/12/19（六），場地待定。"
   },
   {
     id: "reach", type: "reach", label: "AIPOST MEDIA", title: "現場之外，\n還有整個 AI郵報。",
@@ -19,14 +26,14 @@ window.DECK_CONTENT = [
     metrics: [["102K+", "Instagram"], ["75K+", "Threads"], ["40K", "Facebook"], ["≈60%", "電子報開信率"]],
     foot: "內容涵蓋 AI 工具、科技產品、企業應用與產業趨勢。受眾分布台灣、香港、新馬及其他華語市場。",
     source: {label: "AI郵報媒體資料", url: "https://deck.aiposthub.com/?lang=zh#s2"},
-    note: "媒體規模依品牌 Deck；社群追蹤數依 2026.09 主辦方更新。"
+    note: "媒體規模依品牌 Deck；社群追蹤數依 2026.09 主辦方更新。以上為媒體整體數據，非單一贊助方案的保證觸及。"
   },
   {
     id: "audience", type: "audience", label: "THE AUDIENCE", title: "品牌會遇到誰？",
-    intro: "近期針對上百份的讀者深度調查，讓我們更了解這群 AI 使用者的需求。",
+    intro: "《AI郵報 2026 讀者調查》將於活動當天正式公開。從上百份深度回覆，看見 AI 使用者的工作需求、工具選擇與消費意向。",
     groups: ["AI／科技從業者", "創作者與行銷人", "企業團隊與管理者", "知識工作者"],
     stats: [["74.5%", "已使用 AI 至少一年", "適合實際操作與進階應用示範。"], ["64.4%", "想加強 Agent 與工作流", "適合工具、平台與自動化案例。"], ["68.7%", "本機 AI 影響下一台電腦選擇", "適合 AI PC、GPU 與創作設備體驗。"]],
-    source: {label: "2026 讀者調查・讀者自選樣本", url: "https://2026-aipost-survey.netlify.app/"}
+    note: "調查亮點預告｜完整洞察與匿名 AI 告解牆將於現場公開。數據來自讀者自選樣本，非全體市場或活動參加者的代表性推估。"
   },
   {
     id: "event-proof", type: "proof", label: "EVENT EXPERIENCE", title: "我們把科技品牌，\n帶到使用者面前。",
@@ -50,16 +57,17 @@ window.DECK_CONTENT = [
     note: "歷來內容、活動與教育合作節錄；點選案例可查看作品，非本次已確認贊助。"
   },
   {
-    id: "program", type: "program", label: "WHAT HAPPENS HERE", title: "六個現場單元，\n都能找到品牌的位置。",
+    id: "program", type: "program", label: "WHAT HAPPENS HERE", title: "從聽見，到親手試試。\n讓品牌走進參與者的創作。",
     items: [
       ["01", "AI Playground", "試玩 AI PC、工具、裝置與服務。", "攤位展示／設備／軟體體驗"],
-      ["02", "Talks & Live Demo", "企業與創作者分享實作，現場示範。", "Speaker／主題分享／案例 Demo"],
-      ["03", "Useless AI Challenge", "做一個沒什麼用、卻讓人想分享的 AI。", "競賽贊助／工具額度／品牌獎項"],
-      ["04", "Postcards from 2036", "用影片、作品或原型想像十年後。", "創作命題／獎品／作品展示"],
-      ["05", "AI Music & Live Coding", "即時生成音樂與視覺，搭配現場交流。", "表演單元／音訊設備／創作工具"],
-      ["06", "Reader Report & Confessions", "發布 2026 讀者調查，展出匿名 AI 告解。", "議題對談／內容合作／現場互動"]
+      ["02", "AI Talks", "邀請各產業 AI 專家與實踐者，分享真實案例與工作方法。", "Speaker／主題分享／案例交流"],
+      ["03", "AI Demos", "讓工具、Agent 工作流與影音、硬體應用，在現場跑起來。", "產品示範／工作流演示／技術解說"],
+      ["04", "Useless AI Challenge", "做一個沒什麼用、卻讓人想分享的 AI。", "競賽贊助／工具額度／品牌獎項"],
+      ["05", "Postcards from 2036", "用影片、作品或原型想像十年後。", "創作命題／獎品／作品展示"],
+      ["06", "AI Music & Live Coding", "邀請創作者探索即時生成的音樂與視覺。", "演出合作／音訊設備／創作工具"],
+      ["07", "2026 讀者調查大公開", "現場公開使用需求、工具選擇與消費意向，搭配匿名 AI 告解牆。", "報告發布／議題對談／現場互動"]
     ],
-    note: "單元依場次與合作內容安排；研究數據與結論獨立呈現。"
+    note: "講者、品牌、演出與挑戰辦法陸續確認；各單元依最終安排。分享須有實質內容；研究數據與結論獨立呈現。"
   },
   {
     id: "challenges", type: "challenges", label: "CHALLENGE PARTNERS", title: "讓你的工具，\n成為大家動手的理由。",
@@ -70,8 +78,8 @@ window.DECK_CONTENT = [
     strip: "分享場次、創作競賽與 AI 音樂單元皆開放合作。可從單一獎項、一次 Demo 或一組設備開始。"
   },
   {
-    id: "visibility", type: "visibility", label: "INCLUDED FOR EVERY SPONSOR", title: "每位贊助商，\n都有全渠道產品介紹。",
-    intro: "所有贊助均包含活動前、中、後的宣傳，以及企業產品或服務介紹。",
+    id: "visibility", type: "visibility", label: "INCLUDED FOR EVERY SPONSOR", title: "不只一個展示位。\n還有活動前、中、後的內容。",
+    intro: "各級品牌贊助皆含 AI郵報五大渠道的產品／服務介紹；資源支持以具名聯合介紹與對應單元曝光安排。",
     channels: [
       {label: "Instagram", url: "https://www.instagram.com/aiposthub/"},
       {label: "Threads", url: "https://www.threads.com/@aiposthub"},
@@ -80,11 +88,18 @@ window.DECK_CONTENT = [
       {label: "電子報"}
     ],
     items: [
-      ["介紹你的產品", "說清楚產品用途、適合誰使用，以及現場可以體驗什麼。"],
-      ["帶出現場參與", "記錄展示、分享、競賽與作品，延伸成可傳播的內容。"],
-      ["提供後續入口", "附上產品連結或體驗資訊，讓有興趣的讀者繼續了解。"]
+      ["活動前｜建立認識", "介紹合作品牌、產品用途與參與內容，讓讀者知道現場能體驗什麼。"],
+      ["活動中｜呈現體驗", "以現場紀錄與社群內容帶出品牌參與；展示、分享或競賽依方案安排。"],
+      ["活動後｜延續關注", "透過活動回顧與產品介紹，附上產品連結或體驗入口，讓興趣有下一步。"]
     ],
     note: "各平台採合適形式發布；專屬內容、聯合介紹、篇數與影音製作範圍依合作方案確認。"
+  },
+  {
+    id: "creator-network", type: "network", label: "BEYOND OUR OWN CHANNELS", title: "讓體驗，成為更多人\n願意帶走的話題。",
+    intro: "除 AI郵報自有渠道外，我們正邀請科技社群、AI／科技 KOL 與媒體參與，規劃現場分享、採訪及直播合作。",
+    items: [["科技社群 × KOL", "邀請中", "透過試玩、分享與創作互動，創造社群與創作者產出體驗內容的機會。"], ["媒體採訪 × 報導", "邀訪規劃", "整理活動亮點與品牌應用素材，提供媒體採訪線索；報導由媒體獨立決定。"], ["線上直播 × 精選內容", "合作洽談", "評估分享、Demo 與現場訪談的直播或精選內容，讓未到場的人也有機會參與。"]],
+    closing: "如需指定 KOL 貼文、品牌專訪或直播內容，可另訂合作範圍、數量與報價。",
+    note: "本頁為延伸合作機會，非所有方案保證交付。人選、平台與場次確認後另行公告；不保證第三方貼文、報導或觀看數。"
   },
   {
     id: "partnerships", type: "partnerships", label: "WAYS TO PARTICIPATE", title: "三種方式，\n一起參與 OPEN LAB。",
@@ -118,7 +133,7 @@ window.DECK_CONTENT = [
     id: "contact", type: "contact", label: "LET’S MAKE IT HAPPEN", title: "你想讓大家\n親手試試什麼？",
     intro: "告訴我們產品、參與場次與合作想法，一起選擇最適合的現場形式。",
     name: "Davin", org: "AI郵報／泊思智能", email: "davin@aiposthub.com", phone: "0928 910 214",
-    cities: "台北場・瓶蓋工廠｜香港場・場地待定", date: "台北：2026/12/5（六）｜香港：12 月週末，日期待定", scale: "每場 300 人起規劃",
+    cities: "台北場・瓶蓋工廠｜香港場・場地待定", date: "台北：2026/12/5（六）｜香港：預計 2026/12/19（六）",
     link: {label: "認識 AI郵報與更多案例", url: "https://deck.aiposthub.com/"},
     note: "台北館別與報到位置另行公布；香港日期、場地與各場合作內容將陸續確認。"
   }

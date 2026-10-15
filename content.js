@@ -59,7 +59,7 @@ window.DECK_CONTENT = [
   {
     id: "program", type: "program", label: "WHAT HAPPENS HERE", title: "從聽見，到親手試試。\n讓品牌走進參與者的創作。",
     items: [
-      ["01", "AI Playground", "試玩 AI PC、工具、裝置與服務。", "攤位展示／設備／軟體體驗"],
+      ["01", "AI Playground", "輪盤抽任務，在志工引導下完成 AI 工作流。", "五類主題桌／預計 8–12 台設備／作品展示"],
       ["02", "AI Talks", "邀請各產業 AI 專家與實踐者，分享真實案例與工作方法。", "Speaker／主題分享／案例交流"],
       ["03", "AI Demos", "讓工具、Agent 工作流與影音、硬體應用，在現場跑起來。", "產品示範／工作流演示／技術解說"],
       ["04", "Useless AI Challenge", "做一個沒什麼用、卻讓人想分享的 AI。", "競賽贊助／工具額度／品牌獎項"],
@@ -69,6 +69,164 @@ window.DECK_CONTENT = [
     ],
     note: "講者、品牌、演出與挑戰辦法陸續確認；各單元依最終安排。分享須有實質內容；研究數據與結論獨立呈現。"
   },
+  {
+  "id": "playground",
+  "type": "experience",
+  "label": "AI PLAYGROUND / HANDS-ON EXPERIENCE",
+  "title": "AI Playground\n轉一道任務，帶走一個成果。",
+  "intro": "預計配置 8–12 台筆電／桌機，依工作流分配。從大型幸運輪盤抽題，到主題桌實作，每桌由志工協助操作與排除問題。",
+  "items": [
+    [
+      "抽任務，找到桌位",
+      "現場登記或事前預約 → 轉輪盤抽題 → 領取任務指引。"
+    ],
+    [
+      "動手完成工作流",
+      "影像／影片、Agent、Coding、音樂與資安五類桌位；每類可承接多道任務。"
+    ],
+    [
+      "完成作品，分享成果",
+      "完成任務後確認成果、領取活動獎品；可自願參與作品展示。"
+    ]
+  ],
+  "image": "assets/playground-experience.png",
+  "caption": "AI 生成情境示意，非實際活動照片或精確場地配置。",
+  "facts": "規劃中｜設備、任務、預約方式、獎品與技術支援依最終安排；部分工作流可能需要外部服務或授權。"
+},
+  {
+  "id": "playground-desks",
+  "type": "partnerships",
+  "label": "AI PLAYGROUND / WORKFLOW DESKS",
+  "title": "五類主題桌，\n多種任務輪替。",
+  "intro": "桌位是任務分類；依設備、工具與難度安排不同題目，讓參與者依指引完成第一個成果。",
+  "rows": [
+    [
+      "影像／影片",
+      "本地模型與 ComfyUI 工作流",
+      "照片風格轉換、讓一張圖片變成短片。"
+    ],
+    [
+      "Agent × n8n",
+      "資訊整理與自動化",
+      "建立定時任務、整理一份資料。"
+    ],
+    [
+      "Coding",
+      "程式修改與工具製作",
+      "找出並修正 Bug、完成日常小工具。"
+    ],
+    [
+      "AI 音樂",
+      "配樂生成與聲音創作",
+      "生成主題配樂、比較不同情緒版本。"
+    ],
+    [
+      "AI 資安",
+      "風險辨識與資料保護",
+      "辨識釣魚訊息、檢查分享文字中的敏感資訊。"
+    ]
+  ],
+  "rule": "每桌安排志工；同一桌可承接多道題目，依設備與工作流彈性輪替。",
+  "examples": [],
+  "note": "以上為任務規劃示例；實際工具、執行方式及外部服務需求依設備與技術支援確認。"
+},
+  {
+  "id": "playground-cases",
+  "type": "cases",
+  "label": "AI PLAYGROUND / FROM OUR LAB",
+  "title": "把實測工作流，\n變成現場可以動手的任務。",
+  "cases": [
+    {
+      "name": "ComfyUI × 本機影片生成",
+      "category": "影像／影片桌",
+      "description": "以多幀參考工作流，體驗提示、生成與調整；延伸閱讀本機與雲端工具的比較。",
+      "url": "https://www.aiposthub.com/comfyui-minimax-h3-local-ai-video-generation/"
+    },
+    {
+      "name": "vLLM × Hermes Agent",
+      "category": "Agent 桌",
+      "description": "從地端模型部署到團隊共用 Agent，理解推論服務、工具串接與資源限制。",
+      "url": "https://www.aiposthub.com/gigabyte-ai-top-vllm-hermes-agent-local-llm-deployment-guide/"
+    },
+    {
+      "name": "OpenMontage 影片製作",
+      "category": "Coding／影像桌",
+      "description": "以 Agent 串接腳本、影像生成、Remotion 與 FFmpeg，觀察規劃到成片的流程。",
+      "url": "https://www.aiposthub.com/openmontage-ai-video-agent-framework-aorus-master-16-gen2-review/"
+    },
+    {
+      "name": "一人公司的多 Agent 工作流",
+      "category": "案例解析／Agent 桌",
+      "description": "從資料整理、會議紀錄與客服摘要，討論文字、語音與影像模型的任務分工。",
+      "url": "https://www.aiposthub.com/ai-first-solopreneur-agent-workflow-gigabyte-ai-top/"
+    }
+  ],
+  "partners": [],
+  "note": "案例依提供之 AI Playground 資料整理；連結供延伸閱讀，不代表上述設備或品牌已確認參與。現場任務依實際配置調整。"
+},
+  {
+  "id": "playground-kit",
+  "type": "story",
+  "label": "AI PLAYGROUND / STARTER KIT",
+  "title": "先備好環境，\n把現場時間留給實作。",
+  "intro": "規劃為每台設備預載 Starter Kit，搭配任務卡與志工引導，減少現場安裝、設定與準備素材的時間。",
+  "items": [
+    [
+      "環境與素材",
+      "工作流、模型、範例專案",
+      "依桌位預載推論服務與 Agent 框架，備妥圖片、音訊、程式專案和練習資料。"
+    ],
+    [
+      "任務卡與指引",
+      "操作步驟、提示詞、完成標準",
+      "抽到題目後照步驟操作；由志工協助問題排除，確認一個可展示的成果。"
+    ],
+    [
+      "延伸教學",
+      "對應 AI郵報實測文章",
+      "活動後可依教學在自己的設備上嘗試重現，延續對工具與工作流的理解。"
+    ]
+  ],
+  "closing": "登記／預約 → 輪盤抽題 → 桌位實作 → 完成任務領獎 → 自願展示作品",
+  "note": "Starter Kit、任務與獎品尚依各桌設備及合作資源確認；外部服務或授權需求將事先標示。"
+},
+  {
+  "id": "playground-partners",
+  "type": "partnerships",
+  "label": "AI PLAYGROUND / PARTNERSHIP INVITATION",
+  "title": "讓你的設備與工具，\n走進一個完整的實作流程。",
+  "intro": "可從一組設備、一個工作流、一份獎品或一場分享開始，也歡迎共同支持完整主題體驗。",
+  "rows": [
+    [
+      "品牌設備",
+      "AI PC、GPU、周邊或展示設備",
+      "讓產品進入實際操作情境，依供應規模洽談體驗配置。"
+    ],
+    [
+      "技術支援",
+      "工作流、軟體授權、模型配置、技術人員",
+      "共同準備環境與指引，協助現場任務執行。"
+    ],
+    [
+      "任務與獎品",
+      "共同設計題目、提供產品或正式授權",
+      "鼓勵完成挑戰，依合作安排品牌獎項與作品展示。"
+    ],
+    [
+      "活動贊助",
+      "支持體驗區建置與現場執行",
+      "依品牌目標與投入方式，洽談主題體驗及內容合作。"
+    ],
+    [
+      "Speaker 支援",
+      "AI PC 應用與地端 AI 經驗分享",
+      "以實際案例說明技術現況，回應參與者的問題。"
+    ]
+  ],
+  "rule": "資源支持不自動包含展示攤位；展示配置、內容與曝光權益依既有贊助方案或個別合作約定確認。",
+  "examples": [],
+  "note": "合作邀請中｜設備、工具與品牌參與尚待確認，投入方式不等同已確認贊助。"
+},
   {
     id: "challenges", type: "challenges", label: "CHALLENGE PARTNERS", title: "讓你的工具，\n成為大家動手的理由。",
     competitions: [

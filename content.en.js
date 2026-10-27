@@ -437,10 +437,10 @@ window.DECK_CONTENT = [
         "1 themed experience area"
       ],
       [
-        "Stage / challenge (by agreement)",
+        "Stage / challenge",
         "—",
-        "Existing package: 15-minute talk OR branded award",
-        "Existing package: 20-minute talk + programme co-creation"
+        "Talks OR Demo",
+        "Talks + Demo + challenge theme co-creation"
       ],
       [
         "Dedicated product post",
@@ -451,7 +451,7 @@ window.DECK_CONTENT = [
       [
         "Dedicated product video",
         "—",
-        "1 short-form video",
+        "—",
         "1 short-form video"
       ],
       [
@@ -474,7 +474,7 @@ window.DECK_CONTENT = [
       ]
     ],
     "common": "All packages include promotion before, during and after the event, plus product or service coverage on Instagram, Threads, Facebook, the AIPost website and our newsletter.",
-    "note": "Existing commitments remain subject to their agreements. New stage formats and duration require confirmation. Planned three-minute demo interludes are separate from talks. Display, power, video and licensing details follow the formal agreement."
+    "note": "Stage formats, topics and duration follow the agreed programme. Display dimensions, power, video specifications and licensing follow the formal agreement."
   },
   {
     "id": "contact",

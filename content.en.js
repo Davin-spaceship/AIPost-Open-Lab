@@ -461,12 +461,6 @@ window.DECK_CONTENT = [
         "1 dedicated brand article"
       ],
       [
-        "On-site brand interview",
-        "—",
-        "—",
-        "1 short-form video"
-      ],
-      [
         "Brand guest passes",
         "2",
         "4",

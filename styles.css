@@ -268,3 +268,8 @@ html:lang(en) .slide-foot .source-link{max-width:30%}
   html:lang(en) .benefit-wrap:before{content:"Swipe to compare all three packages →"}
 }
 @media(max-width:380px){.brand span{display:none}}
+
+/* Updated deck: balance six programme blocks and retain readable appendices. */
+.slide--program .program-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:960px){.slide--program .program-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.slide--program .program-grid{grid-template-columns:1fr}}

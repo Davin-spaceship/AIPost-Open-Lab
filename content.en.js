@@ -381,7 +381,7 @@ window.DECK_CONTENT = [
         "Follow up with event recaps and product introductions, including links that help interested readers take the next step."
       ]
     ],
-    "note": "Agree dedicated or joint coverage, quantities, video scope and reporting schedule. Reporting can include publication links, available engagement data, participation counts, completed tasks and photographs."
+    "note": "Dedicated content, joint introductions, publication quantities and video production scope follow the agreed package."
   },
   {
     "id": "creator-network",

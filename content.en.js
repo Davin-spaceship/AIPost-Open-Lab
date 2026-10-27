@@ -437,6 +437,24 @@ window.DECK_CONTENT = [
         "1 themed experience area"
       ],
       [
+        "Event website brand visibility",
+        "Logo in the partner section",
+        "Logo + brand introduction",
+        "Priority placement + brand introduction"
+      ],
+      [
+        "On-site and stage brand visibility",
+        "Logo on partner signage and stage acknowledgements",
+        "Brand visibility on partner signage and stage",
+        "Prominent brand visibility on partner signage and stage"
+      ],
+      [
+        "Post-event brand and product introduction",
+        "Joint introduction",
+        "Dedicated brand section",
+        "Featured brand introduction"
+      ],
+      [
         "Stage / challenge",
         "—",
         "Talks OR Demo",
@@ -467,7 +485,7 @@ window.DECK_CONTENT = [
         "8"
       ]
     ],
-    "common": "All packages include promotion before, during and after the event, plus product or service coverage on Instagram, Threads, Facebook, the AIPost website and our newsletter.",
+    "common": "All packages include promotion before, during and after the event, plus product or service coverage on Instagram, Threads, Facebook, the AIPost website and our newsletter. After the event, the organiser will send brand and product introductions to all event participants and competition teams.",
     "note": "Stage formats, topics and duration follow the agreed programme. Display dimensions, power, video specifications and licensing follow the formal agreement."
   },
   {

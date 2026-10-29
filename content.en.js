@@ -1,14 +1,14 @@
-/* English edition, aligned by stable slide IDs. Updated 2026-10-27. */
+/* Updated 2026-10-29. 16 main slides + 4 appendix slides. */
 window.DECK_CONTENT = [
   {
     "id": "cover",
     "type": "cover",
     "label": "Sponsorship & Partnership Deck",
-    "title": "AIPost OPEN LAB 2026",
+    "title": "AIPost Annual Gathering OPEN LAB 2026 Taipei",
     "headline": "Help people discover your product,\ntry it, and share what they find.",
-    "description": "Hands-on AI experiences, industry insights and creator connections. Bring your brand to life in person, then take the story further through AIPost’s media channels.",
+    "description": "Talks × AI Experiences × Community Connections. Bring your brand to life in person, then extend the experience through AIPost’s media channels.",
     "cities": [
-      "TAIPEI | Sat, 5 Dec · POPOP Taipei"
+      "TAIPEI | Sat, 5 Dec · POPOP Taipei, Building F"
     ],
     "date": "5 DEC 2026"
   },
@@ -35,7 +35,7 @@ window.DECK_CONTENT = [
         "We help people take new tools and methods into their everyday work and creative projects."
       ]
     ],
-    "closing": "With over 200,000 followers across our channels, OPEN LAB turns online connections into real-world encounters.",
+    "closing": "Celebrating 100K Instagram followers! AIPost brings a community with over 200K followers across channels together in person at our annual gathering.",
     "source": {
       "label": "Explore AIPost’s content, events and education",
       "url": "https://deck.aiposthub.com/?lang=en"
@@ -50,20 +50,20 @@ window.DECK_CONTENT = [
     "items": [
       [
         "13:00 check-in · 13:30 start",
-        "Keynotes, talks, panels and short demos share one stage. AIPost presents the reader survey in a dedicated session."
+        "Talks and short demos throughout the programme. AIPost independently presents its 2026 Reader Survey Report."
       ],
       [
         "Hands-on experiences",
         "AI Playground and brand displays offer product demonstrations, guided tasks and conversations."
       ],
       [
-        "Food and networking from 17:30",
-        "Challenge showcases and awards follow, with music arrangements to be announced."
+        "Open networking from 17:30",
+        "Meet potential collaborators, with refreshments available. Finalist demos and awards follow in the evening; performances TBA."
       ]
     ],
     "image": "assets/f-building-day-seating-v9.jpg",
     "caption": "AI-generated concept based on the F-building layout; not an event photograph. Final layout may change.",
-    "facts": "Sat, 5 Dec 2026 · POPOP Taipei. Hall, entrance, full agenda and closing time to be announced.",
+    "facts": "Sat, 5 Dec 2026 · POPOP Taipei, Building F. Entrance, full agenda and closing time to be announced.",
     "alt": "AI concept of POPOP F building with front seating and rear high tables and stools"
   },
   {
@@ -105,7 +105,7 @@ window.DECK_CONTENT = [
     "type": "audience",
     "label": "THE AUDIENCE",
     "title": "Who will your brand meet?",
-    "intro": "The AIPost 2026 Reader Survey will be unveiled at the event. Hundreds of in-depth responses reveal how AI users work, choose tools and think about future purchases.",
+    "intro": "The AIPost 2026 Reader Survey Report will be unveiled at the event. Hundreds of in-depth responses reveal how AI users work, choose tools and think about future purchases.",
     "groups": [
       "AI & tech professionals",
       "Creators & marketers",
@@ -215,18 +215,18 @@ window.DECK_CONTENT = [
       ],
       [
         "05",
-        "AI Music & Networking",
-        "Music, food and open conversations.",
-        "Food and networking from 17:30; performances TBA"
+        "AI Music & Open Networking",
+        "Exchange ideas with speakers, creators, product teams and readers.",
+        "Open networking from 17:30, with refreshments; performances TBA"
       ],
       [
         "06",
-        "2026 Reader Survey",
+        "2026 Reader Survey Report",
         "A dedicated editorial session led by AIPost.",
         "Survey release / anonymous AI Confession Wall"
       ]
     ],
-    "note": "Speakers, brands, performances and challenge details are being confirmed. All activities are subject to final arrangements. Talks must offer substantive content; research findings and conclusions remain independent."
+    "note": "Programme, speakers and schedule will continue to evolve. Final arrangements follow the event website and organiser announcements. Talks must offer substantive content; research findings remain independent."
   },
   {
     "id": "playground",
@@ -305,7 +305,7 @@ window.DECK_CONTENT = [
       [
         "Live showcases and awards",
         "5 December, Taipei",
-        "Main awards are judged in advance. Finalist showcases follow food and networking from 17:30; exact timing TBA."
+        "Main awards are judged in advance. Finalist showcases follow the open networking session starting at 17:30; exact timing TBA."
       ]
     ],
     "closing": "27 Nov deadline (tentative) → 1 Dec finalists → 5 Dec showcases and awards",
@@ -498,7 +498,7 @@ window.DECK_CONTENT = [
     "org": "AIPost",
     "email": "davin@aiposthub.com",
     "phone": "+886 928 910 214",
-    "cities": "Taipei · POPOP Taipei",
+    "cities": "Taipei · POPOP Taipei, Building F",
     "date": "Saturday, 5 December 2026",
     "link": {
       "label": "Event website and latest updates",

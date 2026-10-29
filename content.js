@@ -35,7 +35,7 @@ window.DECK_CONTENT = [
         "不只認識新工具，也把方法帶進工作與創作。"
       ]
     ],
-    "closing": "慶祝 AI郵報 IG 10 萬粉！從跨渠道逾 20 萬追蹤的社群出發，在年會把線上的連結變成現場相遇。",
+    "closing": "慶祝 AI郵報 IG 10 萬粉，和跨渠道逾 20 萬追蹤的社群，一起在線下見面。",
     "source": {
       "label": "認識 AI郵報的內容、活動與教育實績",
       "url": "https://deck.aiposthub.com/"
